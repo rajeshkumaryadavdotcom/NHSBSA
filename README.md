@@ -3,6 +3,8 @@
 
 ![Screenshot 2](https://rajeshkumaryadav.com/screenshot2.JPG "Screenshot 2")
 
+![Screenshot 3](https://rajeshkumaryadav.com/screenshot3.JPG "Screenshot 3")
+
 Please follow the steps outlined below to get the server and client up and running.
 
 ## Introduction to the Project
