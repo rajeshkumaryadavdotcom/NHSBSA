@@ -1,0 +1,133 @@
+/***************************************/
+/*********** Global Styles *************/
+/***************************************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+label,
+input[type="text"],
+button {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+input[type="text"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #4c6272;
+  border-radius: 0;
+  box-sizing: border-box;
+  height: 40px;
+  margin-top: 0;
+  padding: 4px;
+  width: 100%;
+  max-width: 200px;
+}
+button {
+  margin-bottom: 28px;
+  -webkit-appearance: none;
+  background-color: #007f3b;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 4px 0 #00401e;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 4px 16px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: auto;
+  margin-left: 8px;
+}
+button:hover {
+  background-color: #00662f;
+}
+button:focus {
+  background: #ffeb3b;
+  box-shadow: 0 4px 0 #212b32;
+  color: #212b32;
+  outline: 4px solid transparent;
+}
+.error-summary {
+  border: 4px solid #d5281b;
+  padding: 24px;
+  max-width: 298px;
+  display: none;
+}
+.error-summary__title {
+  font-weight: 600;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.error-summary p {
+  margin-bottom: 24px;
+}
+.error-summary__list {
+  color: #d5281b;
+  font-size: 12px;
+  padding-left: 14px;
+}
+/***************************************/
+/*********** Header Styles *************/
+/***************************************/
+header {
+  background-color: #005eb8;
+  color: #fff;
+  padding: 20px;
+}
+.logo {
+  width: 80px;
+}
+
+/***************************************/
+/*********** Footer Styles *************/
+/***************************************/
+footer {
+  background-color: #f0f4f5;
+  border-top: 4px solid #005eb8;
+  padding: 20px;
+}
+
+/***************************************/
+/*********** Main Styles *************/
+/***************************************/
+.app-body {
+  min-height: 60vh;
+}
+.global-alert {
+  background-color: #ffeb3b;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  margin-bottom: 40px;
+}
+.global-alert__message h2 {
+  font-size: 18px;
+  line-height: 1.33333;
+  margin: 0;
+}

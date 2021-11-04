@@ -1,0 +1,242 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-11-01T11:10:22.329Z",
+    "__export_source": "insomnia.desktop.app:v2021.6.0",
+    "resources": [
+        {
+            "_id": "req_145cd8dacc75413c8de044fa7441489f",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764587031,
+            "created": 1635716427317,
+            "url": "{{ _.baseUrl }}/validate",
+            "name": "textValidation - undefined",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e9b00b1c9f8c4f8ab0d26c3f454111ad"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1635716427317,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "parentId": null,
+            "modified": 1635764965844,
+            "created": 1635716410380,
+            "name": "nhs-bsa-assignment-request-collection",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_62d754faf4d5478184e5310b1a477a67",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764657946,
+            "created": 1635764639478,
+            "url": "{{ _.baseUrl }}/validate",
+            "name": "textValidation - alphanumeric",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"textValue\": \"123456A\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e9b00b1c9f8c4f8ab0d26c3f454111ad"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1631643672005,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_8be6c92d577847af96cf468b92ee0143",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764722013,
+            "created": 1635764676970,
+            "url": "{{ _.baseUrl }}/validate",
+            "name": "textValidation - less than 1",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"textValue\": -10000\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e9b00b1c9f8c4f8ab0d26c3f454111ad"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629607294349,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_336c00c5a79547c7824fcce3605b7a58",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764722997,
+            "created": 1635764704752,
+            "url": "{{ _.baseUrl }}/validate",
+            "name": "textValidation - greater than 99999999999",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"textValue\": 999999999999\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e9b00b1c9f8c4f8ab0d26c3f454111ad"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1628589105521,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_84db448136554858a5674f12baae1593",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764926484,
+            "created": 1635764921027,
+            "url": "{{ _.baseUrl }}/validate",
+            "name": "textValidation - valid",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"textValue\": 1234567891\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_e9b00b1c9f8c4f8ab0d26c3f454111ad"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1628080011107,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_892a38290de0ebf66324a6f9ab320ddc35ba4dcb",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635764483724,
+            "created": 1635716410409,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1635716410409,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_892a38290de0ebf66324a6f9ab320ddc35ba4dcb",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635718408028,
+            "created": 1635716410412,
+            "name": "Default Jar",
+            "cookies": [
+                {
+                    "key": "CONSENT",
+                    "value": "PENDING+400",
+                    "expires": "2023-10-31T22:13:26.000Z",
+                    "domain": "google.co.uk",
+                    "path": "/",
+                    "secure": true,
+                    "hostOnly": false,
+                    "creation": "2021-10-31T22:13:28.017Z",
+                    "lastAccessed": "2021-10-31T22:13:28.017Z",
+                    "id": "9463521794531555"
+                }
+            ],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_67c6cceb1c3742ccbe5dfb9a2d649fcd",
+            "parentId": "wrk_5ec407b157f443d7a7269c695588a63b",
+            "modified": 1635716410393,
+            "created": 1635716410393,
+            "fileName": "nhs-test",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_a9029983871f40dd82d2e2337fdbce77",
+            "parentId": "env_892a38290de0ebf66324a6f9ab320ddc35ba4dcb",
+            "modified": 1635764521670,
+            "created": 1635764486418,
+            "name": "local",
+            "data": {
+                "baseUrl": "http://localhost:5000/api"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseUrl"
+                ]
+            },
+            "color": "#0ad63d",
+            "isPrivate": false,
+            "metaSortKey": 1635764486418,
+            "_type": "environment"
+        }
+    ]
+}
