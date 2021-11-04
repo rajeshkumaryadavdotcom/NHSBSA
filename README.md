@@ -1,4 +1,7 @@
 # NHSBSA Assignment - Rajesh Kumar Yadav
+![Screenshot 1](https://rajeshkumaryadav.com/screenshot1.JPG "Screenshot 1")
+
+![Screenshot 2](https://rajeshkumaryadav.com/screenshot2.JPG "Screenshot 2")
 
 Please follow the steps outlined below to get the server and client up and running.
 
